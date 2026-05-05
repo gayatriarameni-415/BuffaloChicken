@@ -1,0 +1,50 @@
+
+body {
+  background-color: #d4fad7;
+}
+
+h1 {
+  text-align: center;
+font-family:cursive;
+color: darkgreen;
+}
+
+.centerlayout {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+
+  justify-content: center;
+}
+
+h2 {
+font-family:cursive;
+color: darkgreen;
+}
+
+h3 {
+  color: darkgreen;
+}
+
+p {
+font-family:monospace;
+}
+
+.layout {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+}
+
+.grow2 {
+ flex-grow: 2;
+ margin:20px;
+ display: flex;
+ justify-content:flex-start;
+  }
+
+  .instructions{
+    margin-left: 20px;
+  }
